@@ -7,7 +7,8 @@ public class Switch17 {
      switch (day) {
          case "Monday", "Wednesday" -> System.out.println("Weekday");
          case "Sunday", "Saturday" -> System.out.println("Weekend");
-         default -> System.out.println("demoBranch ");
+         case "Tuesday" -> System.out.println("Weekday");
+         default -> System.out.println("master Day");
      }
  }
 
